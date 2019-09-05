@@ -19,17 +19,14 @@ switch ($categoria) {//segun la categoria establecemos la tarifa
 	case 1:
 		if ($horasTrabajadas>0) {//las horas deben ser mayor que cero
 
-			if ($horasTrabajadas<41) {
+			
 				$tarifa=12000;
      			echo "tarifa de hora 12000";
-			}
-			else{
-				
-				$tarifa=12000;
+			
+		
 				$tarifaExtra=$tarifa+(12000*0.25);
 				echo " se incrementa un 25%" ;
-			}
-		}else{
+			}else{
 			echo "numero de horas no permitido";
 		}
 		break;
@@ -37,17 +34,15 @@ switch ($categoria) {//segun la categoria establecemos la tarifa
 	case 2:
 	    if ($horasTrabajadas>0) {
 
-			if ($horasTrabajadas<41) {
+			
 				$tarifa=17000;
 				echo "tarifa de hora 17000";
-			}
-			else{
-				
-				$tarifa=17000;
+			
+	
+			
 				$tarifaExtra=$tarifa+(17000*0.25);
 				echo " se incrementa un 25%" ;
-			}
-		}else{
+			}else{
 			echo "numero de horas no permitido";
 		}
 		
@@ -56,17 +51,14 @@ switch ($categoria) {//segun la categoria establecemos la tarifa
 	case 3:
 		if ($horasTrabajadas>0) {
 
-			if ($horasTrabajadas<41) {
+		
 				$tarifa=22000;
 				echo "tarifa de hora 22000";
-			}
-			else{
-				
-				$tarifa=22000;
+			
+			
 				$tarifaExtra=$tarifa+(22000*0.25);
 				echo " se incrementa un 25%" ;
-			}
-		}else{
+			}else{
 			echo "numero de horas no permitido";
 		}
 		break;

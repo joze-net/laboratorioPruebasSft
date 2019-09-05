@@ -1,0 +1,11 @@
+table, form{
+	margin: auto;
+	padding: 2%;
+
+}
+
+td{
+	padding: 1%;
+	margin: 1%;
+	width: 100px;
+}
